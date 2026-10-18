@@ -14,28 +14,19 @@ To evaluate the pricing efficiency, tracking quality, and market microstructure 
 
 ## 2. Econometric & Analytical Framework
 - **Annualized Return Decomposition**: Disentangled total ETF performance relative to the Nifty 50 Total Returns Index (TRI) into true tracking error (price index replication error) and residual components (expense drag vs. dividend reinvestment timing).
-- **Price-NAV Deviation & Mean-Reversion Modeling**: Formulated autoregressive time-series regressions ($\Delta 	ext{Dev}_t = lpha + eta 	ext{Dev}_{t-1} + \epsilon_t$) to test the speed and magnitude of arbitrage correction by Authorized Participants (APs).
+- **Price-NAV Deviation & Mean-Reversion Modeling**: Formulated autoregressive time-series regressions ($\Delta \text{Dev}_t = \alpha + \beta \text{Dev}_{t-1} + \epsilon_t$) to test the speed and magnitude of arbitrage correction by Authorized Participants (APs).
 - **Comparative Investment Vehicle Analysis**: Evaluated Nifty BeES performance and expense efficiency relative to open-ended index mutual funds and Nifty index futures.
 - **Microstructure & Trading Volume Determinants**: Modeled the impact of market volatility (India VIX) and premium/discount spreads on intraday ETF trading turnover.
 
 ---
 
 ## 3. Key Empirical Findings
-- **Exceptionally Tight Tracking**: Total annualized NAV underperformance vs. Nifty TRI was only **$-0.53	ext{ bps}$** (tracking error of $-1.20	ext{ bps}$ offset by $+0.66	ext{ bps}$ residual cash/dividend accrual).
-- **Rapid Arbitrage Correction ($R^2 pprox 0.40$)**: Found that nearly $40\%$ of next-day variation in price deviations is absorbed through creation/redemption arbitrage, preventing prolonged mispricing.
+- **Exceptionally Tight Tracking**: Total annualized NAV underperformance vs. Nifty TRI was only **$-0.53\text{ bps}$** (tracking error of $-1.20\text{ bps}$ offset by $+0.66\text{ bps}$ residual cash/dividend accrual).
+- **Rapid Arbitrage Correction ($R^2 \approx 0.40$)**: Found that nearly $40\%$ of next-day variation in price deviations is absorbed through creation/redemption arbitrage, preventing prolonged mispricing.
 - **Empirical Confirmation of Market Efficiency**: Demonstrated that Nifty BeES acts as an exceptionally cost-effective, liquid proxy for the Indian equity market with negligible tracking slippage.
 
 ---
 
-## 4. Key Files in this Folder
+## 4. Key Artifacts & Research Deliverables
 - `Finance_Project_final.pdf`: Complete 10-page academic research paper detailing mathematical formulations, return decomposition tables, and econometric regressions.
 - `finance__ppt.pdf`: 33-slide presentation deck prepared for the Department of Humanities and Social Sciences, IIT Roorkee.
-
----
-
-## 5. IIT Roorkee Resume Bullets (Strict 1-Line Format)
-```text
-• Replicated the Elton et al. framework to evaluate pricing efficiency and tracking error of Nippon Nifty 50 BeES.
-• Decomposed 8-year annualized returns (2013-2021), proving tight tracking with net NAV underperformance of -0.53 bps.
-• Modeled Price-to-NAV deviations via mean-reverting regressions (R2 of 0.40), confirming rapid arbitrage correction.
-```
